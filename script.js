@@ -17,7 +17,9 @@ document.getElementById("studentForm").addEventListener("submit",function(e){
 
     students.push(student);
     console.log(students)
+
 //Este comando borra la consola
+addStudentToTable(student)
     this.reset()
 
 
