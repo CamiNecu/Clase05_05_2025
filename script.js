@@ -1,7 +1,6 @@
 const students=[]
 const tableBody=document.querySelector("#studentsTable tbody");
 const averageDiv=document.getElementById("average");
-let notas=[]
 
 document.getElementById("studentForm").addEventListener("submit",function(e){
     e.preventDefault();
@@ -20,7 +19,7 @@ document.getElementById("studentForm").addEventListener("submit",function(e){
     students.push(student);
     console.log(students)
 
-//Este comando borra la consola
+//Este comando Ejecuta las Funciones y luego Borra la Consola
 addStudentToTable(student);
 calcularPromedio();
     this.reset()
