@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f4f6fa;
+    background-color: #f5deb3;
     color: #333;
 }
 
@@ -40,6 +40,7 @@ button:hover {
     width: 100%;
     border-collapse: collapse;
     max-width: 600px;
+    background-color: #a8e3ff;
 }
 
 #studentsTable th, #studentsTable td {
@@ -60,6 +61,7 @@ button:hover {
 
     #studentsTable {
         font-size: 14px;
+        
     }
 }
 
@@ -73,3 +75,11 @@ button:hover {
     margin-bottom: 20px;
     color: #04167c;
 }
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+
